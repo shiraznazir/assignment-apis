@@ -18,6 +18,10 @@ const userSchema = mongoose.Schema(
       type: String,
       isRequired: false,
     },
+    path: {
+        type: String,
+        isRequired: false,
+    }
   },
   { timeStamps: true }
 );
